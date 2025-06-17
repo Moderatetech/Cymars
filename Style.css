@@ -58,3 +58,30 @@ nav a {
   text-align: right;
   font-weight: bold;
 }
+#contact {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#contact input,
+#contact textarea {
+  width: 90%;
+  max-width: 400px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#contact button {
+  padding: 0.5rem 1rem;
+  background-color: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #333;
+}
